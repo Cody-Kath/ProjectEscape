@@ -7,3 +7,11 @@
 /// @DnDArgument : "y_relative" "1"
 x += -4;
 y += 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 444F4A5E
+/// @DnDArgument : "spriteind" "spr_playerLeft_temp"
+/// @DnDSaveInfo : "spriteind" "2afcfc90-ab97-4f2a-a74d-a4194268392c"
+sprite_index = spr_playerLeft_temp;
+image_index = 0;

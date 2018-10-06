@@ -8,26 +8,6 @@ instance_destroy();
 /// @DnDHash : 22683D81
 
 
-/// @DnDAction : YoYo Games.Particles.Part_Syst_Create
-/// @DnDVersion : 1.1
-/// @DnDHash : 2F179216
-system = part_system_create_layer("Instances", 0);
-
-/// @DnDAction : YoYo Games.Particles.Part_Type_Color
-/// @DnDVersion : 1
-/// @DnDHash : 5C20302C
-part_type_colour3(type, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF);
-
-/// @DnDAction : YoYo Games.Particles.Part_Type_Shape
-/// @DnDVersion : 1.1
-/// @DnDHash : 41CCD7D9
-part_type_shape(type, pt_shape_pixel);
-
-/// @DnDAction : YoYo Games.Particles.Part_Type_Size
-/// @DnDVersion : 1
-/// @DnDHash : 438DB0D3
-part_type_size(type, 0.1, 1, 0, 0);
-
 /// @DnDAction : YoYo Games.Particles.Part_Particles_Create
 /// @DnDVersion : 1
 /// @DnDHash : 7A38A667
@@ -35,3 +15,12 @@ part_type_size(type, 0.1, 1, 0, 0);
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "number" "25"
 part_particles_create(system, x + 0, y + 0, type, 25);
+
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 3CEE1128
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "4"
+/// @DnDArgument : "size" "2"
+effect_create_below(4, x + 0, y + 0, 2, $FFFFFFFF & $ffffff);
