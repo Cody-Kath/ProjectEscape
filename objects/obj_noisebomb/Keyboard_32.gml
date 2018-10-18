@@ -1,3 +1,15 @@
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 5619D218
+/// @DnDArgument : "imageind" "3"
+sprite_index = noone;
+image_index = 3;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0D931F7D
+
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 0A3D1394
@@ -24,3 +36,10 @@ part_particles_create(system, x + 0, y + 0, type, 25);
 /// @DnDArgument : "type" "4"
 /// @DnDArgument : "size" "2"
 effect_create_below(4, x + 0, y + 0, 2, $FFFFFFFF & $ffffff);
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1F8CF731
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "noisedet"
+global.noisedet = 1;

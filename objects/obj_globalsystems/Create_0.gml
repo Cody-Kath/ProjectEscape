@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 3E100A04
+/// @DnDArgument : "var" "noisedet"
+global.noisedet = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 1769ED3D
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "can_pickup"
