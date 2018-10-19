@@ -96,6 +96,6 @@
             "speed": 100
         }
     ],
-    "precision": 4,
+    "precision": 1,
     "vsnap": 0
 }

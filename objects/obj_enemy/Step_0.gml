@@ -93,9 +93,9 @@ else
 				/// @DnDHash : 39EB8FD5
 				/// @DnDParent : 514B4ECB
 				/// @DnDArgument : "path" "path0"
-				/// @DnDArgument : "atend" "path_action_continue"
+				/// @DnDArgument : "atend" "path_action_restart"
 				/// @DnDSaveInfo : "path" "c4682e71-2ed0-4d8e-a47e-ab6d4c310887"
-				path_start(path0, 1, path_action_continue, false);
+				path_start(path0, 1, path_action_restart, false);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
