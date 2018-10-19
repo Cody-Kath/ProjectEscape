@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_noisebombpickup",
     "eventList": [
-        
+        {
+            "id": "dd3c0be3-22fd-42fa-9e2c-80a94f1e9bbc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9f194af9-e4e7-412b-92fa-dc9893a8774c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

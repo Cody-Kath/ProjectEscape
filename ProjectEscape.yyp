@@ -423,11 +423,27 @@
             }
         },
         {
+            "Key": "bf7b4a1c-01e3-4dcd-a7e3-d775ccbdf35d",
+            "Value": {
+                "id": "d17174c4-0524-442c-be04-8204016d21c8",
+                "resourcePath": "sounds\\snd_noisebombExplode\\snd_noisebombExplode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c03a1526-9425-42da-af5b-d5263621b549",
             "Value": {
                 "id": "a16d6bff-96c2-4316-a512-e13763e8ba0a",
                 "resourcePath": "sprites\\spr_playerUp_temp\\spr_playerUp_temp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1954ce7-2da4-496a-8a81-71006b6b3179",
+            "Value": {
+                "id": "6fea626f-0bfd-4678-bfe7-76affaea761b",
+                "resourcePath": "sounds\\snd_enemyDetected\\snd_enemyDetected.yy",
+                "resourceType": "GMSound"
             }
         },
         {
