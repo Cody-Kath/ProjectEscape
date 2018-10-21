@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_wall",
     "eventList": [
-        
+        {
+            "id": "25482a18-cda9-4bda-9490-81cbe743a4da",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "6961a2e3-7c86-4b99-971e-d1a854091fb5",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ee3645e3-3afb-43f6-b55f-fe9ca4a05457"
+        }
     ],
     "maskSpriteId": "7f0ac3cc-3455-4e19-a932-ed21be1178a6",
     "overriddenProperties": null,
-    "parentObjectId": "7e816c41-766d-4763-93f3-7dad767aae2a",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
