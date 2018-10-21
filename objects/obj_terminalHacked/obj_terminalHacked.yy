@@ -1,38 +1,18 @@
 {
-    "id": "50539e7b-d48d-4d03-8088-ad9eb789c6b1",
+    "id": "bcad959c-d23d-40ee-aa65-149a2e5e8b0f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_terminal",
+    "name": "obj_terminalHacked",
     "eventList": [
         {
-            "id": "e6f66bda-9f07-4649-b545-6aa70f964230",
+            "id": "946cdecb-e2c4-4693-b57d-56a2f2b644f8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "50539e7b-d48d-4d03-8088-ad9eb789c6b1"
-        },
-        {
-            "id": "b5132dbe-794c-4546-a962-59d98cfebb2e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "50539e7b-d48d-4d03-8088-ad9eb789c6b1"
-        },
-        {
-            "id": "c8856cbc-ff6d-4beb-8ef8-855517846f90",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "50539e7b-d48d-4d03-8088-ad9eb789c6b1"
+            "m_owner": "bcad959c-d23d-40ee-aa65-149a2e5e8b0f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

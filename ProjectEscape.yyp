@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "bcad959c-d23d-40ee-aa65-149a2e5e8b0f",
+            "Value": {
+                "id": "ee9d1afd-3c87-48bf-b4fb-52653a76cd09",
+                "resourcePath": "objects\\obj_terminalHacked\\obj_terminalHacked.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "beb95567-e194-4614-8128-c105ce64555c",
             "Value": {
                 "id": "7446698b-94ac-41f1-9bc9-bbff69717aad",
