@@ -27,10 +27,13 @@ if(!l21283A20_0)
 	/// @DnDArgument : "value" "5"
 	if(distance_to_object(obj_player) <= 5)
 	{
-		/// @DnDAction : YoYo Games.Rooms.Next_Room
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
-		/// @DnDHash : 36AC3C1F
+		/// @DnDHash : 0EE3BA27
 		/// @DnDParent : 03538DE7
-		room_goto_next();
+		/// @DnDArgument : "x" "965"
+		/// @DnDArgument : "y" "190"
+		/// @DnDArgument : "caption" ""YOU WIN! ""
+		draw_text(965, 190, string("YOU WIN! ") + "");
 	}
 }
