@@ -77,8 +77,8 @@ else
 			/// @DnDHash : 514B4ECB
 			/// @DnDParent : 62F207BC
 			/// @DnDArgument : "var" "room"
-			/// @DnDArgument : "value" "room1"
-			if(room == room1)
+			/// @DnDArgument : "value" "Level1"
+			if(room == Level1)
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -93,9 +93,35 @@ else
 				/// @DnDHash : 39EB8FD5
 				/// @DnDParent : 514B4ECB
 				/// @DnDArgument : "path" "path0"
-				/// @DnDArgument : "atend" "path_action_restart"
-				/// @DnDSaveInfo : "path" "c4682e71-2ed0-4d8e-a47e-ab6d4c310887"
-				path_start(path0, 1, path_action_restart, false);
+				/// @DnDArgument : "atend" "path_action_continue"
+				/// @DnDSaveInfo : "path" "0eea7080-44ee-4895-b854-9e5e473ef776"
+				path_start(path0, 1, path_action_continue, false);
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5552EA9C
+			/// @DnDParent : 62F207BC
+			/// @DnDArgument : "var" "room"
+			/// @DnDArgument : "value" "Level2"
+			if(room == Level2)
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2A56C09F
+				/// @DnDParent : 5552EA9C
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "var" "global.following"
+				global.following = 1;
+			
+				/// @DnDAction : YoYo Games.Paths.Start_Path
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 2232655A
+				/// @DnDParent : 5552EA9C
+				/// @DnDArgument : "path" "path1"
+				/// @DnDArgument : "speed" "3"
+				/// @DnDArgument : "atend" "path_action_reverse"
+				path_start(path1, 3, path_action_reverse, false);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -103,8 +129,8 @@ else
 			/// @DnDHash : 3097EC21
 			/// @DnDParent : 62F207BC
 			/// @DnDArgument : "var" "room"
-			/// @DnDArgument : "value" "Level2"
-			if(room == Level2)
+			/// @DnDArgument : "value" "Level3"
+			if(room == Level3)
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -118,11 +144,10 @@ else
 				/// @DnDVersion : 1.1
 				/// @DnDHash : 69BB7519
 				/// @DnDParent : 3097EC21
-				/// @DnDArgument : "path" "path1"
+				/// @DnDArgument : "path" "path2"
 				/// @DnDArgument : "speed" "3"
 				/// @DnDArgument : "atend" "path_action_continue"
-				/// @DnDSaveInfo : "path" "3b9c3b0b-3cf5-4f4c-98ca-c514799e230c"
-				path_start(path1, 3, path_action_continue, false);
+				path_start(path2, 3, path_action_continue, false);
 			}
 		
 			/// @DnDAction : YoYo Games.Audio.Stop_Audio
